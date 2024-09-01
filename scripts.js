@@ -19,7 +19,7 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
 
     try {
         // Send a POST request to the API Gateway endpoint
-        const response = await fetch('https://i39wdd3t11.execute-api.us-west-2.amazonaws.com/test/submit-order', {
+        const response = await fetch('https://YOUR URL/submit-order', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
